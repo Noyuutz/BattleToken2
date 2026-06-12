@@ -2,7 +2,7 @@ name: BattleTokens
 version: 1.0.0
 main: id.battletokens.BattleTokens
 api-version: 1.21
-authors: [ClaudeAI]
+authors: [Noyuutz]
 description: Sistem token reward untuk bounty hunter
 
 softdepend: [PlaceholderAPI, ClaudeBounty]
