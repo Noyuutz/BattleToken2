@@ -1,0 +1,47 @@
+# =============================================
+#         BattleTokens Configuration
+# =============================================
+
+# Database settings (disarankan sama dengan ClaudeBounty)
+database:
+  type: mysql  # mysql atau sqlite
+  mysql:
+    host: localhost
+    port: 3306
+    database: battletokens
+    username: root
+    password: password
+    pool-size: 10
+  sqlite:
+    file: battletokens.db
+
+# Token settings
+tokens:
+  # Token yang didapat per kill bounty
+  per-bounty-kill: 10
+  # Token nama tampilan di chat/GUI
+  display-name: "Battle Token"
+  # Symbol token
+  symbol: "🪙"
+
+# Season settings
+season:
+  # Nama season saat ini
+  current-season: "Season 1"
+  # Reset otomatis (false = manual lewat command)
+  auto-reset: false
+
+# Shop settings
+shop:
+  # Judul GUI utama
+  main-title: "&8⚔ &6Battle Shop &8⚔"
+  # Ukuran GUI utama (9, 18, 27, 36, 45, 54)
+  main-size: 27
+  # Slot untuk tombol kembali di sub-menu
+  back-button-slot: 49
+  # Item untuk tombol kembali
+  back-button-material: ARROW
+  back-button-name: "&cKembali"
+
+# Prefix
+prefix: "&8[&6⚔ BattleTokens&8] &r"

@@ -1,0 +1,45 @@
+name: BattleTokens
+version: 1.0.0
+main: id.battletokens.BattleTokens
+api-version: 1.21
+authors: [ClaudeAI]
+description: Sistem token reward untuk bounty hunter
+
+softdepend: [PlaceholderAPI, ClaudeBounty]
+
+commands:
+  battletoken:
+    description: Kelola Battle Token
+    usage: /battletoken <balance|give|take|reset>
+    aliases: [bt, token]
+  battleshop:
+    description: Buka Battle Shop
+    usage: /battleshop
+    aliases: [bshop]
+  battleseason:
+    description: Kelola season
+    usage: /battleseason <reset|info>
+    aliases: [bseason]
+
+permissions:
+  battletokens.balance:
+    description: Cek saldo token sendiri
+    default: true
+  battletokens.balance.other:
+    description: Cek saldo token player lain
+    default: op
+  battletokens.give:
+    description: Give token ke player
+    default: op
+  battletokens.take:
+    description: Ambil token dari player
+    default: op
+  battletokens.shop:
+    description: Akses battleshop
+    default: true
+  battletokens.season.reset:
+    description: Reset season token
+    default: op
+  battletokens.admin:
+    description: Akses semua perintah admin
+    default: op

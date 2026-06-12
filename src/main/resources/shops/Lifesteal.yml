@@ -1,0 +1,55 @@
+# =============================================
+#         Lifesteal Shop
+# =============================================
+shop-name: "&c❤ Lifesteal Items"
+shop-icon: TOTEM_OF_UNDYING
+shop-icon-lore:
+  - "&7Item untuk bertahan hidup lebih lama"
+shop-slot: 13
+shop-size: 54
+
+items:
+  totem:
+    slot: 10
+    name: "&c🛡 Totem of Undying"
+    material: TOTEM_OF_UNDYING
+    price: 50
+    amount: 1
+    enchants: {}
+    lore:
+      - "&7Bangkit kembali dari kematian"
+      - ""
+      - "&6Harga: &e50 &6Battle Token"
+      - "&7Klik untuk membeli!"
+    commands: []
+
+  heart:
+    slot: 11
+    name: "&4❤ +1 Max Heart"
+    material: NETHER_STAR
+    price: 75
+    amount: 1
+    enchants: {}
+    lore:
+      - "&7Tambah 1 max heart permanen"
+      - ""
+      - "&6Harga: &e75 &6Battle Token"
+      - "&7Klik untuk membeli!"
+    # Command dijalankan console saat beli
+    # {player} = nama player pembeli
+    commands:
+      - "lifesteal addheart {player} 1"
+
+  golden_apple:
+    slot: 12
+    name: "&6🍎 Enchanted Golden Apple"
+    material: ENCHANTED_GOLDEN_APPLE
+    price: 30
+    amount: 3
+    enchants: {}
+    lore:
+      - "&7Regenerasi instan di tengah pertarungan"
+      - ""
+      - "&6Harga: &e30 &6Battle Token"
+      - "&7Klik untuk membeli!"
+    commands: []

@@ -1,0 +1,62 @@
+# =============================================
+#         Exclusive Shop
+# =============================================
+shop-name: "&5✦ Exclusive Items"
+shop-icon: NETHER_STAR
+shop-icon-lore:
+  - "&7Item eksklusif untuk hunter terbaik"
+shop-slot: 11
+shop-size: 54
+
+items:
+  god_sword:
+    slot: 10
+    name: "&5⚔ God Sword"
+    material: NETHERITE_SWORD
+    price: 500
+    amount: 1
+    enchants:
+      SHARPNESS: 5
+      UNBREAKING: 3
+      MENDING: 1
+      LOOTING: 3
+    lore:
+      - "&7Senjata terkuat para hunter"
+      - ""
+      - "&6Harga: &e500 &6Battle Token"
+      - "&7Klik untuk membeli!"
+    commands: []
+
+  god_armor_helmet:
+    slot: 19
+    name: "&5🪖 God Helmet"
+    material: NETHERITE_HELMET
+    price: 300
+    amount: 1
+    enchants:
+      PROTECTION: 4
+      UNBREAKING: 3
+      MENDING: 1
+      RESPIRATION: 3
+    lore:
+      - "&7Helm terkuat para hunter"
+      - ""
+      - "&6Harga: &e300 &6Battle Token"
+      - "&7Klik untuk membeli!"
+    commands: []
+
+  elytra:
+    slot: 20
+    name: "&5🦋 Elytra Enchanted"
+    material: ELYTRA
+    price: 800
+    amount: 1
+    enchants:
+      UNBREAKING: 3
+      MENDING: 1
+    lore:
+      - "&7Terbang melintasi medan perang"
+      - ""
+      - "&6Harga: &e800 &6Battle Token"
+      - "&7Klik untuk membeli!"
+    commands: []

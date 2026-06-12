@@ -1,0 +1,34 @@
+# =============================================
+#         BattleTokens Messages
+# =============================================
+
+messages:
+  # General
+  no-permission: "{prefix}&cKamu tidak memiliki izin untuk melakukan ini."
+  player-only: "{prefix}&cPerintah ini hanya untuk player."
+  player-not-found: "{prefix}&cPlayer &e{player} &ctidak ditemukan."
+  invalid-amount: "{prefix}&cJumlah tidak valid. Gunakan angka positif."
+  reload-success: "{prefix}&aKonfigurasi berhasil direload!"
+
+  # Balance
+  balance-self: "{prefix}&7Saldo token kamu: &6{amount} {symbol}"
+  balance-other: "{prefix}&7Saldo token &e{player}&7: &6{amount} {symbol}"
+
+  # Give / Take / Set
+  give-success: "{prefix}&aKamu memberikan &6{amount} {symbol} &akepada &e{player}&a!"
+  give-receive: "{prefix}&aKamu menerima &6{amount} {symbol} &adari &eAdmin&a!"
+  take-success: "{prefix}&aKamu mengambil &6{amount} {symbol} &adari &e{player}&a!"
+  take-receive: "{prefix}&cAdmin mengambil &6{amount} {symbol} &cdarimu!"
+  set-success: "{prefix}&aToken &e{player} &aberhasil diset ke &6{amount} {symbol}&a!"
+  insufficient-token: "{prefix}&cToken tidak cukup! Kamu memiliki &6{balance} {symbol}&c, butuh &6{price} {symbol}&c."
+
+  # Shop
+  shop-buy-success: "{prefix}&aKamu berhasil membeli &e{item} &aseharga &6{price} {symbol}&a!"
+  shop-buy-failed: "{prefix}&cGagal membeli item. Coba lagi."
+  shop-item-sold-out: "{prefix}&cItem ini sedang tidak tersedia."
+
+  # Season
+  season-reset-confirm: "{prefix}&cKamu akan mereset semua token season ini! Ketik &e/battleseason confirm &cuntuk melanjutkan."
+  season-reset-success: "{prefix}&aSeason &e{season} &aberhasil direset! Semua token telah dihapus."
+  season-reset-broadcast: "&8[&6⚔ BattleTokens&8] &eSeason {old} &7telah berakhir! Season &e{new} &7dimulai!"
+  season-info: "{prefix}&7Season saat ini: &e{season} &7| Total player: &e{players}"
