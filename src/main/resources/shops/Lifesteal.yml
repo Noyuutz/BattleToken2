@@ -31,14 +31,14 @@ items:
     amount: 1
     enchants: {}
     lore:
-      - "&7Tambah 1 max heart permanen"
+      - "&7Tambah 1 heart"
       - ""
       - "&6Harga: &e75 &6Battle Token"
       - "&7Klik untuk membeli!"
     # Command dijalankan console saat beli
     # {player} = nama player pembeli
     commands:
-      - "lifesteal addheart {player} 1"
+      - "lifestealz hearts add {player} 1"
 
   golden_apple:
     slot: 12
